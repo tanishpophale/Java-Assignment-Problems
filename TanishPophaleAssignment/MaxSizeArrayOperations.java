@@ -14,7 +14,7 @@ public class MaxSizeArrayOperations {
         long memoryBefore = runtime.totalMemory() - runtime.freeMemory();
 
         
-        Integer maxSize = 200000000;
+        Integer maxSize = 300000000;
         // int maxSize = Integer.MAX_VALUE;
         Integer a[] = new Integer[maxSize];
 
